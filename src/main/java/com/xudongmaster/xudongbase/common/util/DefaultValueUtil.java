@@ -1,5 +1,6 @@
 package com.xudongmaster.xudongbase.common.util;
 
+import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 
 import java.math.BigDecimal;
@@ -15,7 +16,7 @@ import java.time.LocalDateTime;
 public class DefaultValueUtil {
 
     public static <T> T value(T displayValue, T defaultValue) {
-        if (displayValue == null) {
+        if (ObjectUtil.isNull(displayValue)) {
             return defaultValue;
         }
         return displayValue;
