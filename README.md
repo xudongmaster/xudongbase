@@ -16,5 +16,5 @@ https://blog.csdn.net/qq_38974638
 
 # 6 结构
 ## 6.1 文件结构
-###　common.util
+### common.util
 DefaultValueUtil：默认值工具类，编码过程中碰到很多次字段取值出现空指针异常，而沉淀出来的默认值方法
